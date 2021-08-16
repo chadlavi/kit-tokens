@@ -1,0 +1,19 @@
+{
+  "name": "kit-tokens",
+  "version": "0.0.1",
+  "description": "design tokens for Kit",
+  "main": "build/main.js",
+  "typings": "build/main.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "rimraf build && tsc"
+  },
+  "keywords": [],
+  "author": "Chad Lavimoniere",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  }
+}
