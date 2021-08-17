@@ -8,7 +8,9 @@
     "build"
   ],
   "scripts": {
-    "build": "rimraf build && tsc"
+    "build": "rimraf build && tsc",
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish --access public"
   },
   "keywords": [],
   "author": "Chad Lavimoniere",
@@ -18,19 +20,6 @@
   },
   "directories": {
     "lib": "lib"
-  },
-  "dependencies": {
-    "fs.realpath": "^1.0.0",
-    "balanced-match": "^1.0.2",
-    "brace-expansion": "^1.1.11",
-    "glob": "^7.1.7",
-    "concat-map": "^0.0.1",
-    "minimatch": "^3.0.4",
-    "inflight": "^1.0.6",
-    "once": "^1.4.0",
-    "inherits": "^2.0.4",
-    "path-is-absolute": "^1.0.1",
-    "wrappy": "^1.0.2"
   },
   "repository": {
     "type": "git",
