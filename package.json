@@ -1,6 +1,6 @@
 {
   "name": "@chadlavi/kit-tokens",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "design tokens for Kit",
   "main": "build/main.js",
   "typings": "build/main.d.ts",
